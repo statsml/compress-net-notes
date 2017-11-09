@@ -4,9 +4,13 @@ You can use the following materials as your entrypoint:
 * [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039)
 * the related work of [Quantized Neural Networks](https://arxiv.org/abs/1609.07061)
 
+# Terminologies
+
+- **Structural pruning (compression)**: compress CNNs based on removing "less important" filter.
+- 
 
 # Network Compression
-Note that the paper without link represents un-read/un-sort.
+
 ## Reduce Precision
 [Deep neural networks are robust to weight binarization and other non-linear distortions](https://arxiv.org/abs/1606.01981) showed that DNN can be robust to more than just weight binarization.
 
@@ -87,6 +91,8 @@ Network Prune: a large amount of the weights in a network are redundant and can 
     * [1512]. [Structured Pruning of Deep Convolutional Neural Networks](https://arxiv.org/abs/1512.08571)
     * [1608]. [Learning Structured Sparsity in Deep Neural Networks](https://arxiv.org/abs/1608.03665)
     * [1705]. [Exploring the Regularity of Sparse Structure in Convolutional Neural Networks](https://arxiv.org/abs/1705.08922)
+    * Interpreting Convolutional Neural Networks Through Compression - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1711.02329)]
+    * Structural compression of convolutional neural networks based on greedy filter pruning - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1705.07356)]
 
 
 ### Compact Network Architectures
@@ -119,3 +125,7 @@ Network Prune: a large amount of the weights in a network are redundant and can 
 
 # A Bit Hardware
 * [1402]. [Computing's Energy Porblem (and what we can do about it)](http://ieeexplore.ieee.org/document/6757323/)
+
+# Contributors
+- [Tao Lin](https://github.com/IamTao)
+- [Jun Lu](https://github.com/junlulocky)
