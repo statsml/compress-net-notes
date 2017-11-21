@@ -7,7 +7,7 @@ You can use the following materials as your entrypoint:
 # Terminologies
 
 - **Structural pruning (compression)**: compress CNNs based on removing "less important" filter.
-- 
+
 
 # Network Compression
 
@@ -91,8 +91,10 @@ Network Prune: a large amount of the weights in a network are redundant and can 
     * [1512]. [Structured Pruning of Deep Convolutional Neural Networks](https://arxiv.org/abs/1512.08571)
     * [1608]. [Learning Structured Sparsity in Deep Neural Networks](https://arxiv.org/abs/1608.03665)
     * [1705]. [Exploring the Regularity of Sparse Structure in Convolutional Neural Networks](https://arxiv.org/abs/1705.08922)
-    * Interpreting Convolutional Neural Networks Through Compression - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1711.02329)]
-    * Structural compression of convolutional neural networks based on greedy filter pruning - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1705.07356)]
+    
+### Bayesian network pruning
+- [1711]. Interpreting Convolutional Neural Networks Through Compression - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1711.02329)]
+- [1705]. Structural compression of convolutional neural networks based on greedy filter pruning - [[notes](notes/interpret-cnn-compress.md)][[arXiv](https://arxiv.org/abs/1705.07356)]
 
 
 ### Compact Network Architectures
